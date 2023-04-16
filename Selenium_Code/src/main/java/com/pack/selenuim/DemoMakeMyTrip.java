@@ -16,18 +16,15 @@ public class DemoMakeMyTrip {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.makemytrip.com/");
-		
-		
+
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-		
+
 		driver.findElement(By.xpath("//span[@data-cy=\"switcherDownArrow\"]")).click();
-		
+
 		driver.findElement(By.xpath("//p[@data-cy='selectCountry']")).click();
-		
+
 		driver.findElement(By.xpath("//p[text()='USA']")).click();
-		
-		
-		
+
 	}
 
 }

@@ -6,10 +6,10 @@ public class StringExample1 {
 		String s1 = "shaikshavali";
 		String s2 = "shaikshavali";
 		String s3 = new String("shaikshavali").intern();
-		String s4 = new String("shaikshavali");
+		String s4 = new String("Shaikshavali");
 		System.out.println(s1 == s2);
-		System.out.println(s1 == s3);
-		System.out.println(s3 == s4);
+		System.out.println(s1.equals(s3));
+		System.out.println(s3.compareTo(s4));
 	}
 
 }

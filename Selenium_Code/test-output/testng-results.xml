@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="26355" started-at="2023-05-02T08:37:13 IST" finished-at="2023-05-02T08:37:40 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="26355" started-at="2023-05-02T08:37:13 IST" finished-at="2023-05-02T08:37:40 IST">
+      <class name="com.pack.airlines.FlightBookingTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.pack.airlines.FlightBookingTest@46daef40]" name="setUp" is-config="true" duration-ms="10488" started-at="2023-05-02T08:37:13 IST" finished-at="2023-05-02T08:37:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="selectFromCity()[pri:1, instance:com.pack.airlines.FlightBookingTest@46daef40]" name="selectFromCity" duration-ms="2779" started-at="2023-05-02T08:37:24 IST" finished-at="2023-05-02T08:37:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectFromCity -->
+        <test-method status="PASS" signature="selectToCity()[pri:2, instance:com.pack.airlines.FlightBookingTest@46daef40]" name="selectToCity" duration-ms="1716" started-at="2023-05-02T08:37:27 IST" finished-at="2023-05-02T08:37:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectToCity -->
+        <test-method status="PASS" signature="selectDateAndSearchFlights()[pri:3, instance:com.pack.airlines.FlightBookingTest@46daef40]" name="selectDateAndSearchFlights" duration-ms="11309" started-at="2023-05-02T08:37:28 IST" finished-at="2023-05-02T08:37:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectDateAndSearchFlights -->
+      </class> <!-- com.pack.airlines.FlightBookingTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

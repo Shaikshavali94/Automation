@@ -16,7 +16,8 @@ public class HandleBasicHTMLControls {
 			driver.manage().window().maximize();
 			driver.get("https://www.hyrtutorials.com/p/basic-controls.html");
 			Thread.sleep(3000);
-			driver.findElement(By.id("femalerb")).click();
+			WebElement we = driver.findElement(By.id("femalerb"));
+			we.click();
 			Thread.sleep(3000);
 			driver.findElement(By.id("englishchbx")).click();
 			Thread.sleep(3000);
